@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{   background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: left;
+}
+.menu-bar
+{   
+    text-align:center 
+}
+.menu-bar ul
+{  
+    display: inline-flex;
+    list-style: none;
+    color: rgb(243, 243, 243);
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+} 
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.profile-image{
+    border-radius: 50%;
+    
+}
